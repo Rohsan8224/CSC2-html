@@ -94,3 +94,30 @@ header img {
 }
 
 body {
+    background-image: url('../rohansandhu/Downloads/mountain.jpg');
+    background-size: 2200px;
+    color: #fdf6f6;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: hsl(200, 100%, 50%); /* Green color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.sticky-menu {
+    position: sticky;
+    top: 0;
+    background-color: hwb(0 10% 89%);
+    z-index: 100;
+}
+
+.sticky-menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
