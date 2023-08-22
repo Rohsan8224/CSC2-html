@@ -67,3 +67,30 @@ header img {
 }
 
 .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.header-with-navbar {
+    position: relative;
+}
+
+.navbar {
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+
+body {
