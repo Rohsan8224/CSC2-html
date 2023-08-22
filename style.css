@@ -38,3 +38,32 @@ body, h1, h2, p, ul, table {
 }
 
 
+body {
+    background-color: #f5f5f5;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #006699; /* Dark blue color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header img {
+    max-width: 100px; /* Adjust the width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px; /* Center the logo image and add spacing */
+}
+
+.navbar {
+    background-color: #333333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
