@@ -208,3 +208,22 @@ img {
 /* Adjust positioning for description sections */
 #description1 {
     margin: 20px;
+    padding: 20px;
+    background-color:  hwb(200 0% 0%);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20%;
+    font-size: small;
+}
+#description2 {
+    margin: 20px;
+    padding: 20px;
+    background-color:  hwb(200 0% 0%);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -12%;
+    font-size: small;
+}
+
