@@ -227,3 +227,30 @@ img {
     font-size: small;
 }
 
+#description1 h2,
+#description2 h2 {
+    margin-bottom: 10px;
+}
+
+#description1 ul {
+    padding-left: 20px;
+}
+
+#description1 ul li {
+    margin-bottom: 10px;
+}
+
+#description2 p {
+    margin-bottom: 15px;
+}
+/* Stretch the page size to full viewport */
+body, html {
+    height: 110%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set full height for main content */
+#content {
+    min-height: 100vh;
+}
