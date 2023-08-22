@@ -121,3 +121,136 @@ header {
     display: flex;
     justify-content: center;
     padding: 10px;
+}
+
+.sticky-menu li {
+    margin: 0 15px;
+}
+
+.sticky-menu a {
+    color: hsl(0, 4%, 16%);
+    text-decoration: none;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color:hsl(200, 100%, 50%); /* Green color */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid hwb(0 100% 0%);
+    padding: 8px;
+}
+
+
+a {
+    color: rgb(31, 32, 33); /* Dark color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: hsl(200, 100%, 50%); /* Green color */
+    color: hsl(0, 2%, 8%); /* Dark color */
+    text-align: center;
+    padding: 5px 10px;
+    position: sticky;
+    top:100%;
+    margin-top: auto;
+}
+
+
+@media (max-width: 768px) {
+    section {
+        margin: 10px;
+    }
+}
+
+img {
+    max-width: 24%;
+    height: auto;
+}
+
+#slogan {
+    background-color: rgb(244, 248, 250);
+    text-align: center;
+    margin: 50px 0;
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+}
+
+#slogan h2 {
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#slogan p.slogan {
+    font-size: 50px;
+    color: #333;
+}
+/* Adjust positioning for description sections */
+#description1 {
+    margin: 20px;
+    padding: 20px;
+    background-color:  hwb(200 0% 0%);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20%;
+    font-size: small;
+}
+#description2 {
+    margin: 20px;
+    padding: 20px;
+    background-color:  hwb(200 0% 0%);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -12%;
+    font-size: small;
+}
+
+#description1 h2,
+#description2 h2 {
+    margin-bottom: 10px;
+}
+
+#description1 ul {
+    padding-left: 20px;
+}
+
+#description1 ul li {
+    margin-bottom: 10px;
+}
+
+#description2 p {
+    margin-bottom: 15px;
+}
+/* Stretch the page size to full viewport */
+body, html {
+    height: 110%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set full height for main content */
+#content {
+    min-height: 100vh;
+}
